@@ -1,0 +1,23 @@
+In your own words, what is recursion?
+*Functions call themselves,
+
+Why is it necessary to have a base case?
+
+*Recursive functions are recurrent, and if you don't set up some kind of limitor 
+to act as brakes they will reccur indefinitely. Enter a base case: an instance 
+of the recurrance that we are expecting, and can set as a switch to end the 
+recurrance.
+
+
+Graphs
+
+What is a graph?
+*Minimally; a set of nodes. Maximally, a set of nodes linked by edges which can 
+(but don't have to) be directional, and can create cycles. Any number of nodes 
+can have any number of parents.
+
+How is a graph different from a tree?
+*Trees are directional, acyclical, and each node is limited to having one parent.
+
+Give an example of something that would be good to model with a graph.
+*Social networks.
